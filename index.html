@@ -1,606 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Mirrored from pccico.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jan 2018 05:28:03 GMT -->
-<head>
-    <script src="js/lang.js"></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="DPORN">
-    <meta name="keywords" content=".">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
-    <meta name="google" content="nositelinkssearchbox">
-  	<meta property="og:type" content="website"/>
-  	<meta property="og:title" content="Decentralized PORN"/>
-  	<meta property="og:description" content="DPORN"/>
-  	<meta property="og:image" content=""/>
-  	<meta property="og:url" content="https://dporn.io"/>
-    <title>Decentralized PORN</title>
-    <link rel="stylesheet" href="css/bootstrap.grid.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/flipclock.css">
-    <link rel="stylesheet" href="css/video-bg.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/bootstrap.animations.min.css">
-    <link rel="stylesheet" href="css/bootstrap.dropdowns.min.css">
-    <link rel="stylesheet" href="css/style.css"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Avion - Simple Landing Page</title>
 
-    <link rel="alternate" href="index-2.html" hreflang="en" />
-    <link rel="alternate" href="ru/index.html" hreflang="ru" />
-    <link rel="alternate" href="jp/index.html" hreflang="ja" />
-    <link rel="alternate" href="zh/index.html" hreflang="zh" />
-    <link rel="alternate" href="index-2.html" hreflang="x-default" />
-
-    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
-    <link rel="manifest" href="img/icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link href="img/icons/pcc-60.png" rel="apple-touch-icon" />
-    <link href="img/icons/pcc-76.png" rel="apple-touch-icon" sizes="76x76" />
-    <link href="img/icons/pcc-120.png" rel="apple-touch-icon" sizes="120x120" />
-    <link href="img/icons/pcc-152.png" rel="apple-touch-icon" sizes="152x152" />
-    <link href="img/icons/pcc-180.png" rel="apple-touch-icon" sizes="180x180" />
-    <link href="img/icons/pcc-192.png" rel="icon" sizes="192x192" />
-    <link href="img/icons/pcc-128.png" rel="icon" sizes="128x128" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/3db7fc1628.js"></script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-106205765-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-      (function (d, w, c) {
-          (w[c] = w[c] || []).push(function() {
-              try {
-                  w.yaCounter45981582 = new Ya.Metrika({
-                      id:45981582,
-                      clickmap:true,
-                      trackLinks:true,
-                      accurateTrackBounce:true
-                  });
-              } catch(e) { }
-          });
-  
-          var n = d.getElementsByTagName("script")[0],
-              s = d.createElement("script"),
-              f = function () { n.parentNode.insertBefore(s, n); };
-          s.type = "text/javascript";
-          s.async = true;
-          s.src = "../mc.yandex.ru/metrika/watch.js";
-  
-          if (w.opera == "[object Opera]") {
-              d.addEventListener("DOMContentLoaded", f, false);
-          } else { f(); }
-      })(document, window, "yandex_metrika_callbacks");
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/45981582" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+    
+    <!-- google font -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <header id="Home">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-sm-2">
-            <a href="#"><img src="img/logo.png" alt="PornCorn PCC ICO Logo"></a>
-          </div>
-          <nav class="col-xs-8 col-sm-10 burger">
-              <img class="mobile_show" id="burger" src="img/menu-button.svg" alt="Бургер меню">
-            <ul class="top-menu mobile_hide">
-              <li><a class="slicy" href="#about">About</a></li>
-              <li><a class="slicy" href="#roadmap">Roadmap</a></li>
-             
-              <li><a class="slicy" href="#team">Team</a></li>
-              <li><a class="slicy" href="#advisors">Advisors</a></li>
-             
-              <li><a href="https://wallet.bitshares.org/#/market/PORND_BTS" target="_blank"><b>Invest Now!</b></a></li>
-              
-             
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <section class="main homepage-hero-module">
-      <div class="video-container">
-        <div class="filter mobile_hide"></div>
-        <video autoplay loop class="fillWidth fadeIn animated mobile_hide" poster="video/snapshots/Sugar.jpg">
-          <source src="video/MP4/ver3.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden mobile_hide">
-            <img src="video/snapshots/Sugar.jpg" alt="pcc background">
-        </div>
-        <div class="container main-cont">
-          <h5><b></b></h5>
-          <!--div class="clock flip-clock-wrapper">
-            <ul class="flip ">
-            <li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li></ul><ul class="flip "><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li></ul><ul class="flip "><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">5</div></div><div class="down"><div class="shadow"></div><div class="inn">5</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">6</div></div><div class="down"><div class="shadow"></div><div class="inn">6</div></div></a></li></ul><span class="flip-clock-divider hours"><span class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span><ul class="flip "><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">9</div></div><div class="down"><div class="shadow"></div><div class="inn">9</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">0</div></div><div class="down"><div class="shadow"></div><div class="inn">0</div></div></a></li></ul><ul class="flip "><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">7</div></div><div class="down"><div class="shadow"></div><div class="inn">7</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">8</div></div><div class="down"><div class="shadow"></div><div class="inn">8</div></div></a></li></ul><span class="flip-clock-divider minutes"><span class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span><ul class="flip  play"><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">4</div></div><div class="down"><div class="shadow"></div><div class="inn">4</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">3</div></div><div class="down"><div class="shadow"></div><div class="inn">3</div></div></a></li></ul><ul class="flip  play"><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">0</div></div><div class="down"><div class="shadow"></div><div class="inn">0</div></div></a></li></ul><span class="flip-clock-divider seconds"><span class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span><ul class="flip  play"><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">3</div></div><div class="down"><div class="shadow"></div><div class="inn">3</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">2</div></div><div class="down"><div class="shadow"></div><div class="inn">2</div></div></a></li></ul><ul class="flip  play"><li class="flip-clock-before"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li><li class="flip-clock-active"><a href="#"><div class="up"><div class="shadow"></div><div class="inn">0</div></div><div class="down"><div class="shadow"></div><div class="inn">0</div></div></a></li></ul>
-          </div-->
-          <div class="row">
-            <div class="col-sm-6 col-xs-12">
-              <div class="main-header">DPORN</div>
-              <h1>Free is Not Just Enough</h1>
-            </div>
-                 </div>
-          <div class="main-buttons">
-            <a class="button button_imp" href="https://wallet.bitshares.org/#/market/PORND_BTS" target="_blank">Invest</a>
-            &nbsp&nbsp&nbsp&nbsp
-          </div>
-            
+    <div class="se-pre-con"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-logo-wrapper">
+            <img src="images/avion_logo.png" alt="avion" title="Avion Template" class="img-responsive center-block" />
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="about" class="about">
-      <div class="container">
-        <h2>About DPORN project</h2>
-        <div class="row">
-        <div class="col-xs-12 col-sm-7">
-			<p>DPORN is a decentralized platform for sharing pornographic content.We developed advanced platform for adult entertainment services, known as DPRON platform.</p>
-            <p>We are team of professionals, who believe in great future of advanced entertainment services for adults.</p>
-			<p>DPORN is a fork of STEEM blockchain just like golos. IN DPORN There will be three major things  PORN POWER , PORN DOLLAR and DPORN.DPORN will be backed by its own BLOCKCHAIN called PORNCHAIN,which is also powered with advanced AI based BIT Hash scanner which will dis-allow users of DPORN to upload Duplicate Content on the Network and ensures original creator with greater value.</p>
-			<p>DPORN will go through the fork on July 15th 2018.The Fork Will ensure all users on STEEM Network will GET 1:1 ASSET of what they have in STEEM and also 3 times asset of how much PORND they hold that was bought on the BITSHARE exchange,PORND can be purchased openly on the bitshare<a href="https://wallet.bitshares.org/#/market/PORND_BTS"> market</a>.</p>
-			
-          </div>
-          <div class="col-sm-5 about-img mobile_hide">
-            <img src="img/about_pcc.jpg" alt="About PornCorn PCC Coin">
+      <div class="row">
+        <div class="col-md-12">
+        <h1 class="text-center">We will be back with new and exciting feature!</h1>
+        <h3 class="text-center">turpis gravida vel donec id tuarpis tellus odio magna</h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-12">
+          <div id="counter_wrapper">
+            <div class="text-center" id="counter"></div>
           </div>
         </div>
-<div class="row">
-
-</div>
       </div>
-    </section>
 
+      <div class="text-center subscribe-form-wrapper">
+        <form action="#" class="form-inline">
+          <div class="form-group">
+           <label for="subscriberName">name</label>
+           <input type="text" name="subscriberName" class="center-block form-control" placeholder="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="subscriberEmail">email</label>
+            <input type="email" name="subscriberEmail" class="center-block form-control form-subs-email" placeholder="email" />
+          </div>
+
+          <button type="submit" class="btn btn-default">Subscribe</button>
+        </form>
+      </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="social-media-wrapper text-center">
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
+          <a href="#"><i class="fa fa-google-plus-official"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+		  <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-center copyright">Copyright &copy; 2016 Avion by <a target="_blank" style="color:#fff;" href="https://www.behance.net/glendragon">Glen Dragon</a></div> 
+      </div>
+    </div>
     
-	
-    <section id="roadmap" class="road">
-      <div class="road-overlay"></div>
-      <div class="container">
-        <h2>Roadmap</h2>
-        <div class="road-road">
-          <div class="road-line mobile_hide"></div>
-          <div class="road-l">
-            <div class="road-block road-block-done">
-              <h4>Starting project</h4>
-              <p>Development of video streaming core. Proof of concept for the high load services</p>
-            </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-date">
-              <div><span>from</span> December , 2017</div>
-              <div><span>to</span> January, 2018</div>
-            </div>
-          </div>
-          <div class="road-r wow bounceInUp">
-            <div class="road-date">
-              <div><span>from</span> February</div>
-              <div><span>to</span> March, 2018</div>
-            </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-block road-block-done">
-              <!-- h4>Heading lalala i lalala</h4 -->
-              <p>Intiations of Seed Nodes and Witness Creation</p>
-            </div>
-          </div>
-          <div class="road-l wow bounceInUp">
-            <div class="road-block road-block-done">
-              <!-- h4>Heading lalala i lalala</h4 -->
-              <p>Installation of Servers and Intitate the FORK,and start mining and witnessing PORNCHAIN</p>
-            </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-date">
-              <div><span>from</span> March</div>
-              <div><span>to</span> April, 2018</div>
-            </div>
-          </div>
-          <div class="road-r wow bounceInUp">
-            <div class="road-date">
-              <div>May, 2018</div>
-            </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-block road-block-done">
-              <h4>System will go live on dporn.xxx</h4>
-              <p><a href="https://dporn.xxx" target="_blank">DPORN</a> launched in public internet and TOR Network</p>
-            </div>
-          </div>
-          <div class="road-l wow bounceInUp">
-            <div class="road-block road-block-done">
-              <!-- h4>Heading lalala i lalala</h4 -->
-              <p>FORKED Code Will be made Public on GIT and anyone can create seed nodes and witness Transactions </p>
-            </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-date">
-              <div><span>June</span> 2018</div>
-             
-            </div>
-          </div>
-          <div class="road-r wow bounceInUp">
-            <div class="road-date">
-              <div><span>July</span> 2018</div>
-              <div><span></span></div>
-            </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-block road-block-done">
-              <h4>Proposing HF 01</h4>
-              <p>HF 01 will remove the option of vesting power hence demoralizing paid votings </p>
-            </div>
-          </div>
-          
-            
-          
-          
-         
-          <div class="road-r wow bounceInUp">
-            <div class="road-date">
-              <div><span>August</span> 2018</div>
-                          </div>
-            <div class="road-circle road-circle_done"></div>
-            <div class="road-block road-block-done">
-              <!-- h4>Heading lalala i lalala</h4 -->
-              <p>Project Completed Enjoy watching porn while getting paid to do so.</p>
-            </div>
-          </div>
-          
-          
-          
-          
-          
-         
-         
-         
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
-    
+    <!-- fit text -->
+    <script type="text/javascript" src="js/jquery.fittext.js"></script>
 
-    <section id="use" class="use">
-      <div class="container">
-        <h2>How you can use DPORN and PORND</h2>
-        <div class="row">          
-          <div class="col-xs-12 col-sm-4 wow fadeInRight">
-            <div class="use-cart">
-              <div class="use-icon">
-                <i class="icon-arrows"></i>
-              </div>
-              <h4>Exchanging at exchanges</h4>
-              <p>You can exchange DPORN and PORND to any fiat currency or other crypto </p>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow fadeInRight">
-           <div class="use-cart">
-              <div class="use-icon">
-                <i class="icon-heart"></i>
-              </div>
-              <h4>Power up your Voting Power</h4>
-              <p>All holders of DPORN will be able to power up their PORN POWER to increase the Reward and Curation Value.</p>
-            </div>
-          </div>
-          
-        </div>
-       
-      </div>
-    </section>
-		
-    <section id="team" class="team">
-      <div class="team-overlay"></div>
-      <div class="container">
-      <h2>Team</h2>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 team-text">
-          <p>We have very strong team. The team members have wide experience in IT, Software development, Business development and Marketing.</p>
-          <p>Team members were actively involved in developing of large banking systems and system for mobile and fixed telecom operators. These systems were able to process hundreds of millions transactions per day with 99.999% high availability. Same experience our team brings to adult entertainment industry.</p>
-          
-		  </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 wow bounceInLeft">
-            <h4>Lung, CEO</h4>
-            <div class="team-avatar">
-              <img src="img/lung-512.png" alt="Lung">
-              <p>Ex Top Manager in several telecommunication and software companies. Launched 3 mobile operator companies. Business consultant. E-MBA, Ph.D.</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow jackInTheBox">
-            <h4>Lexo, CTO</h4>
-            <div class="team-avatar">
-              <img src="img/lexo-512.png" alt="Lexo">
-              <p>Project Manager Professional (PMP). Managing large projects in software development, solutions delivery and telecommunications. Software technologies guru</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow bounceInRight">
-            <h4>Wong, CCO</h4>
-            <div class="team-avatar">
-              <img src="img/wong-512.png" alt="Wong">
-              <p>Experienced account manager in large companies. Financial and investment consultant. Expert for cryptocurrency markets</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 wow bounceInLeft">
-            <h4>Blonde</h4>
-            <div class="team-avatar">
-              <img src="img/blonde-512.png" alt="Lung">
-              <p>Relations with 3rd parties. Legal issues. Public relations</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow jackInTheBox">
-            <h4>Iriska</h4>
-            <div class="team-avatar">
-              <img src="img/iriska-512.png" alt="Lexo">
-              <p>Content administration, content management. Multilanguage translations</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow bounceInRight">
-            <h4>Apper</h4>
-            <div class="team-avatar">
-              <img src="img/apper-512.png" alt="Wong">
-              <p>Mobile applications development for iOS and Android. Bots development</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 wow bounceInLeft">
-            <h4>Mano</h4>
-            <div class="team-avatar">
-              <img src="img/mano-512.png" alt="Lung">
-              <p>Development of Web Front End. Expert in JS, TypeScrypt, Python, and tens of hottest modern frameworks for WFE development</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow jackInTheBox">
-            <h4>Linda</h4>
-            <div class="team-avatar">
-              <img src="img/linda-512.png" alt="Lexo">
-              <p>Wireframing, Web design, Web development</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 wow bounceInRight">
-            <h4>Seotor</h4>
-            <div class="team-avatar">
-              <img src="img/seotor-512.png" alt="Wong">
-              <p>SEO optimization, promotion, online advertising</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-sm-offset-4  wow jackInTheBox">
-            <h4>Rina</h4>
-            <div class="team-avatar">
-              <img src="img/rina-512.png" alt="Lung">
-              <p>Artworks, painting, content collection, content administration</p>
-              <div class="team-avatar-overlay"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- jquery countdown -->
+    <script type="text/javascript" src="js/jquery.plugin.js"></script> 
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
 
-    <section id="advisors" class="advisors">
-      <div class="container">
-        <h2>Advisors</h2>
+    <!--placeholder -->
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
 
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 team-text">
-		<font color="black">
-          <p>Some of our advisors from 18+/porn industry.</p>
-          <p>All of advisors are actual famous models, 18+ movie stars.</p>
-          <p>We also in contact with some producers and directors of 18+ movies.</p>
-		</font>
-		</div>
-
-        <div class="col-sm-4 col-xs-12">
-          <figure class="advisors-member">
-            <img src="img/katrin-1.jpg" alt="Katrin">
-            <figcaption>
-              <h3>Katrin Tequila</h3>
-              <p>Model, Actress 18+<br>“Make porn not war”<br>
-                <a href="https://twitter.com/tequila_katrin" target="_blank"><i class="icon-twitter"></i></a>
-                <a href="https://www.instagram.com/tanya_koup/" target="_blank"><i class="icon-instagram"></i></a>
-                <a href="https://fancentro.com/katrintequila" target="_blank"><i class="icon-star"></i></a>
-              </p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-          <figure class="advisors-member">
-            <img src="img/poopea-1.jpg" alt="Poopea">
-            <figcaption>
-              <h3>Poopea</h3>
-              <p>Model, Actress 18+<br>
-                “J'aime la beauté naturelle”<br>
-                <a href="https://twitter.com/poopea_pons" target="_blank"><i class="icon-twitter"></i></a>
-                <a href="https://onlyfans.com/poopea" target="_blank"><i class="icon-star"></i></a>
-                <a href="http://www.poopea.com/" target="_blank"><i class="icon-home"></i></a>
-              </p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-          <figure class="advisors-member">
-            <img src="img/nataly-1.jpg" alt="">
-            <figcaption>
-              <h3>Nataly Gold</h3>
-              <p>Model, Actress 18+<br>“Do in life what you like!”<br>
-                <a href="https://twitter.com/natalygold88" target="_blank"><i class="icon-twitter"></i></a>
-                <a href="https://www.instagram.com/natalygoldass/" target="_blank"><i class="icon-instagram"></i></a>
-                <a href="https://fancentro.com/natalygold" target="_blank"><i class="icon-star"></i></a>
-              </p>
-            </figcaption>
-          </figure>
-		  </div>
-
-        <div class="col-sm-4 col-xs-12">
-          <figure class="advisors-member">
-            <img src="img/lolla-1.jpg" alt="">
-            <figcaption>
-              <h3>Lola Shine</h3>
-              <p>Model, Journalist, Actress 18+<br>“The life is wonderful!”<br>
-                <a href="https://twitter.com/WeisseLolla" target="_blank"><i class="icon-twitter"></i></a>
-                <a href="https://www.instagram.com/lollashineofficial/" target="_blank"><i class="icon-instagram"></i></a>
-                <a href="https://lollashine.livejournal.com/" target="_blank"><i class="icon-star"></i></a>
-              </p>
-            </figcaption>
-          </figure>
-        </div>
-
-	  </div>
-    </section>
-
-   
-
-    <!--<div class="subscribe">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <!-- Begin MailChimp Signup Form -->
-              <!--<div id="mc_embed_signup">
-                <form action="http://pccico.us16.list-manage.com/subscribe/post?u=c1e932fafb4c900d4b0930be6&amp;id=d8230e7b90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-                  <p class="mobile_hide">Subscribe to our mailing list</p>
-                  <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="E-mail address" required>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-
-    <footer class="contacts">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <ul>
-              <img src="img/discord-icon-43742.png" height="50px" width="50px">&nbsp&nbsp&nbsp<a href="https://discord.gg/U2twqrW">DISCORD</a></li>
-             
-            </ul>
-          </div>
-          <div class="mobile_hide col-sm-6 col-sm-offset-2 contacts-nav">
-            <ul>
-              <li><a class="slicy" href="#about">About</a></li>
-              <li><a class="slicy" href="#roadmap">Roadmap</a></li>
-                          <li><a class="slicy" href="#team">Team</a></li>
-						   
-            </ul>
-			
-		            <ul>
-					<li><a class="slicy" href="https://steemit.com/@dporn">STEEMIT</a></li>
-		         <li><a class="slicy" href="#advisors">Advisors</a></li>
-			  <li><a href="https://wallet.bitshares.org/#/market/PORND_BTS" target="_blank">Invest Now!</a></li>
-			  <li><a class="slicy" href="#advisors"></a></li>
-			  <li><a class="slicy" href="#advisors"></a></li>
-			  
-			  
-              
-            </ul>
-          </iv>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 contacts-copy">
-            
-          </div>
-          <!-- div class="col-xs-12 contacts-copy">
-BIS Ltd., Cambodia, No. 173, Street 215, Phnom Penh, Cambodia, ZIP: 12159, Tel: 85570836470
-          </div -->
-        </div>
-      </div>
-    </footer>
-    <nav aria-expanded="false" class="collapse burger-menu" id="burger-menu">
-      <ul>
-        <li><a class="slicy" href="#about">About</a></li>
-        <li><a class="slicy" href="#roadmap">Roadmap</a></li>
-        
-        <li><a class="slicy" href="#team">Team</a></li>
-        <li><a class="slicy" href="#advisors">Advisors</a></li>
-        
-        <li><a href="https://wallet.bitshares.org/#/market/PORND_BTS" target="_blank">Invest Now!</a></li>
-        
-        
-
-        <li class="dropdown">
-          <a data-toggle="dropdown" href="#"><img src="img/langs/uk.svg" alt="UK flag"> English<i class="icon-down"></i></a>
-          <ul class="dropdown-menu">
-            <li><a href="ru/index-2.html"><img src="img/langs/russia.svg" alt="Russian language"> Русский</a></li>
-            <li><a href="cn/index.html"><img src="img/langs/china.svg" alt="Chinese language"> 中国</a></li>
-            <li><a href="jp/index-2.html"><img src="img/langs/japan.svg" alt="Japan language"> 日本語</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-
-    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script>
-      $('#roadmap').parallax({
-        imageSrc: '/img/road-bg.jpg',
-        speed: 0.3
-      });
-      $('#team').parallax({
-        imageSrc: '/img/team-bg.jpg',
-        speed: 0.1
-      });
-      $('#feed').parallax({
-        imageSrc: '/img/feed-bg.jpg',
-        speed: 0.2
-      });
-    </script>    
-    <script src="js/flipclock.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script>
-      $('.owl-carousel').owlCarousel({
-        loop:true,
-        items:1,
-        dots:true
-      });
-    </script>
-    <script src="js/bootstrap.collapse.min.js"></script>
-    <script src="js/bootstrap.transitions.min.js"></script>
-    <script src="js/bootstrap.dropdowns.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      $('.burger img').click(function(){
-        $('#burger-menu').collapse('toggle');
-      });
-    </script>
-
-
+    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
-
-<!-- Mirrored from pccico.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jan 2018 05:28:35 GMT -->
 </html>
