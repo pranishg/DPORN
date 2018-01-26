@@ -9,7 +9,7 @@
 
 <meta name="description" content="">
 <meta name="author" content="">
-<title>:: DPORN::</title>
+<title>:: Pixicon ::</title>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
 <!-- style -->
@@ -32,24 +32,23 @@
 
 <!-- font-awesome -->
 
-<!-- Video -->
+<!-- Slider -->
 
-<link href="css/video.css" rel="stylesheet">
+<link href="css/jquery.fadeshow-0.1.1.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-<!--Video Section--> 
+<!-- Full Page Image Background Carousel Header -->
 
-<a id="video" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=TVzZjulH2MM',containment:'.bg-container-youtube', showControls:false, autoPlay:true, loop:true,  startAt:0, opacity:1, addRaster:false, quality:'large'}"></a>
-<div class="bg-container-youtube"></div>
-<div class="overlay-bg"></div>
+<div class="background"></div>
+<div class="over-bg"></div>
 
-<!--Video Section--> 
+<!-- Full Page Image Background Carousel Header --> 
 
 <!-- main -->
 
-<main role="video-container"> 
+<main role="slider-container"> 
   
   <!-- container -->
   
@@ -64,7 +63,7 @@
       <section id="home" class="tab-pane fade in active">
         <article role="countdown" class="countdown-pan">
           <div id="countdown" class="text-center"></div>
-          <p>GET Paid While You Watch Free Porn</p>
+          <p>we are working hard for better expirience</p>
         </article>
       </section>
       
@@ -156,20 +155,11 @@
     <!-- tab-content --> 
     
   </div>
-  
-  <!-- container --> 
-  
 </main>
 
+<!-- container --> 
+
 <!-- main --> 
-
-<!--             
-
-                    </div>
-
-                </section>--> 
-
-<!--Video Section--> 
 
 <!-- header -->
 
@@ -178,7 +168,7 @@
     
     <!-- logog -->
     
-    <h1> <a href="#" title="Pixicon">DPORN</a> </h1>
+    <h1> <a href="#" title="Pixicon">Pixicon</a> </h1>
     
     <!-- logog --> 
     
@@ -186,18 +176,30 @@
     
     <nav role="nav" id="header-nav" class="nav navy">
       <ul class="nav nav-tabs">
-	  <li><a data-toggle="tab" href="https://discord.gg/52ud5fZ">DISCORD</a></li>
-      <li><a data-toggle="tab" href="https://wallet.bitshares.org/#/market/PORND_BTS">Market</a></li>
-        <li><a data-toggle="tab" href="https://steemit.com/@dporn">Steemit</a></li>
-              </ul>
-     
+        <li class="active"><a data-toggle="tab" href="#home" title="Countdown">Countdown</a></li>
+        <li><a data-toggle="tab" href="#menu1" title="Introduction">introduction</a></li>
+        <li><a data-toggle="tab" href="#menu2" title="Subscribe">Subscribe</a></li>
+        <li><a data-toggle="tab" href="#menu3" title="Contact">Contact</a></li>
+      </ul>
+      <div role="socil-icons" class="mobile-social">
+        <li><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank" title="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+      </div>
     </nav>
     
     <!-- nav --> 
     
     <!-- Socil Icon -->
     
-       
+    <ul role="socil-icons" class="desk-social">
+      <li><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="#" target="_blank" title="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+      <li><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+    </ul>
+    
     <!-- Socil Icon --> 
     
   </hgroup>
@@ -229,10 +231,10 @@
 
 <script src="js/countdown-js.js" type="text/javascript"></script> 
 
-<!-- Video --> 
+<!-- slider --> 
 
-<script src="js/jquery.mb.YTPlayer.js" type="text/javascript"></script> 
-<script src="js/video.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/background.cycle.js"></script> 
+<script type="text/javascript" src="js/background.cycle-custom.js"></script> 
 <script src="js/html5shiv.js" type="text/javascript"></script>
 </body>
 </html>
